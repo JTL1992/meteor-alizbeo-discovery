@@ -1,0 +1,32 @@
+<template name="Discovery">
+    <div class="modal fade modal-wide" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="vertical-alignment-helper">
+            <div class="modal-dialog vertical-align-center">
+                <div class="modal-content">
+                    <div class="">
+                        <div class="container-fluid">
+                           <div class="row">
+                               <div class="col-md-6 sinpadding" >
+                                       <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                       <div style="margin-top: 20%; padding: 20px" class="text-center">
+                                           <h1>{{desTitle}}</h1>
+                                       </div>
+                                       <div class="modal-footer">
+                                           <p class="text-center jumbotron">{{desContent}}</p>
+                                           {{#if index}}<button class="
+                                           btn-back bottom btn btn-default btn-lg">back</button>{{/if}}
+                                           {{#if numClose}} <button class="btn-next bottom btn btn-info btn-lg">next</button>
+                                           {{else}}<button type="button" class="btn-close bottom btn btn-default btn-lg" data-dismiss="modal" aria-hidden="true">close</button>{{/if}}
+                                       </div>
+                                   </div>
+                               <div class="col-md-6 sinpadding">
+                                   <img src="{{desPic}}" alt="discovery" class="myImage" >
+                              </div>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

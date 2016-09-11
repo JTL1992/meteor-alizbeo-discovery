@@ -1,0 +1,65 @@
+.vertical-alignment-helper {
+  display:table;
+  height: 100%;
+  width: 100%;
+  pointer-events:none; /* This makes sure that we can still click outside of the modal to close it */
+}
+.vertical-align-bottom{
+
+}
+.vertical-align-center {
+  /* To center vertically */
+  display: table-cell;
+  vertical-align: middle;
+  pointer-events:none;
+}
+.modal-content {
+  /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
+  width:inherit;
+  height:inherit;
+  /* To center horizontally */
+  margin: 0 auto;
+  pointer-events: all;
+}
+.modal-wide .modal-dialog {
+  width: 80%; /* or whatever you wish */
+  /*height: 500px;*/
+}
+.bottom{
+  margin-top: 8%;
+}
+.close {
+  float: left;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1;
+  margin: 10px;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  filter: alpha(opacity=20);
+  opacity: .2;
+}
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  filter: alpha(opacity=50);
+  opacity: .5;
+}
+button.close {
+  -webkit-appearance: none;
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+}
+.container-fluid{
+  position: relative;
+  height: 100%;
+}
+.myImage {
+
+  margin: auto;
+  width: 100%;
+}
