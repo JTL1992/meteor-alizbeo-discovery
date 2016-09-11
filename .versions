@@ -1,4 +1,4 @@
-alizbeo:txmdiscovery@0.0.3
+alizbeo:txmdiscovery@0.0.4
 babel-compiler@6.8.5
 babel-runtime@0.1.9_1
 base64@1.0.9
@@ -22,7 +22,7 @@ id-map@1.0.8
 jquery@1.11.9
 json@1.0.3
 less@2.6.5
-local-test:alizbeo:txmdiscovery@0.0.3
+local-test:alizbeo:txmdiscovery@0.0.4
 logging@1.0.14
 meteor@1.1.16
 minifier-js@1.1.13

@@ -1,8 +1,8 @@
 Package.describe({
   name: "alizbeo:txmdiscovery",
-  version: '0.0.3',
+  version: '0.0.4',
   // Brief, one-line summary of the package.
-  summary: 'A package for modal discovery',
+  summary: 'A package for modal discovery, modal, popup style',
   // URL to the Git repository containing the source code for this package.
   git: 'https://github.com/JTL1992/meteor-alizbeo-discovery',
   // By default, Meteor will default to using README.md for documentation.

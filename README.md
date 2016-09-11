@@ -7,13 +7,12 @@ this is a package for your web discovery using modal
 
 ####1.configuration####
 
-```TxmDiscovery.config({
-    num:3,
-    desTitle:["This is first title","This is second title","This is third title"],
-    desContent: ["Estas son algunas de las razones por las que millones de personas eligen Airbnb cuando viajan con la familia, los amigos o por motivos de trabajo.",
-                 "Encuentra casas preciosas, de diseño increíble por todo el mundo, todas ellas evaluadas y recomendadas por huéspedes anteriores.",
-                 "Encuentra alquileres para cualquier bolsillo. Muchos espacios ofrecen wifi, cocina y servicios básicos que van incluidos en el precio."],
-    desPic: []
+```
+TxmDiscovery.config({
+    num:3, //number de page you want for discover
+    desTitle:["This is first title","This is second title","This is third title"], // array for title
+    desContent: ["content1","content2","content3"], //array for content
+    desPic: ["dir1","dir2","dir3"] //array src for image
   });
  ```
   
@@ -27,4 +26,7 @@ this is a package for your web discovery using modal
 - hide
 
    `TxmDiscovery.hide()`
- 
+   
+#### 3.demo ####
+
+ http://teachxmundus.com
