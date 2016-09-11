@@ -1,11 +1,11 @@
-##txmdiscovery ##
+## txmdiscovery ##
 
 this is a package for your web discovery using modal
 
 - configuration
 - use
 
-####1.configuration####
+#### 1.configuration ####
 
 ```
 TxmDiscovery.config({
@@ -17,7 +17,7 @@ TxmDiscovery.config({
  ```
   
   
-####2.use it ####
+#### 2.use it ####
 
 - show
   

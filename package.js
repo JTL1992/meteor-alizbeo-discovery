@@ -1,6 +1,6 @@
 Package.describe({
   name: "alizbeo:txmdiscovery",
-  version: '0.0.4',
+  version: '0.0.6',
   // Brief, one-line summary of the package.
   summary: 'A package for modal discovery, modal, popup style',
   // URL to the Git repository containing the source code for this package.
