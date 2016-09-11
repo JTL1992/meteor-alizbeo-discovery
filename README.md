@@ -16,11 +16,13 @@ this is a package for your web discovery using modal
     desPic: []
   }) ```
   
+  
 2.use it 
 
 - show
   
-   ` TxmDiscovery.show()`
+   `TxmDiscovery.show()`
 - hide
-   ` TxmDiscovery.hide()`
+
+   `TxmDiscovery.hide()`
  
